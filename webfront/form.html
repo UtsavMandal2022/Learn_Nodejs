@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Form</title>
+</head>
+<body>
+<h1>Your data Form</h1><br>
+<a href="https://www.youtube.com/watch?v=YwbIeMlxZAU&list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&index=3">Learnt from</a>
+<br>
+<a href="https://www.javatpoint.com/html-form-input-types">More Types of input</a>
+<br>
+<br>
+<form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Username" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="@gmail.com" required>
+    <br><br>
+    <label for="pw">Passwoord:</label>
+    <input type="password" id="pw" name="pw" placeholder="Password" required>
+    <br><br>
+    <p>age:</p><br>
+    <label for="op1">18-24</label>
+    <input type="radio" id="op1" value="18-24" name="age">
+    <br><br>
+    <label for="op2">25-40</label>
+    <input type="radio" id="op2" value="25-40" name="age">
+    <br><br>
+    <p>sex</p><br>
+    <label for="M">Male</label>
+    <input type="radio" id="M" value="M" name="sex" >
+    <br><br>
+    <input type="radio" id="F" value="F" name="sex">
+    <label for="F">Female</label>
+    <br><br>
+    <input type="radio" id="O" value="O" name="sex">
+    <label for="O">Others</label>
+    <br><br>
+    <p>pronoun(s)</p>
+    <br>
+    <input type="radio" id="She" value="she" name="F" >
+    <label for="She">She</label>
+    <br><br>
+    <input type="radio" id="her" value="her" name="S" >
+    <label for="her">her</label>
+    <br><br>
+    <input type="radio" id="He" value="he" name="F">
+    <label for="He">He</label>
+    <br><br>
+    <input type="radio" id="him" value="him" name="S">
+    <label for="him">him</label>
+    <br><br>
+<label for="q">Security Q</label>
+    <select name="q" id="q">
+        <option value="q1">Your pet name?</option>
+        <option value="q2">Your fav address?</option>
+        <option value="q3">Fav Car?</option>
+        <option value="q4">Money or family</option>
+    </select>
+
+    <br><br>
+    <label for="ans">Answer:</label>
+    <input type="text" id="ans" name="Ans" placeholder="Security ANSWER" required> 
+<br><br>
+<label for="bio">Bio:</label>
+<br>
+<textarea id="bio" name="Bio" placeholder="About YOU..." rows="10" cols="50"></textarea>
+<br><br>
+<input type="submit" value="Submit the form">
+</form>  
+</body>
+</html>
